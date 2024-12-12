@@ -111,7 +111,6 @@ address {
     color: #434455;
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .adrress-li {
@@ -139,6 +138,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .h-portfolio,
@@ -169,8 +169,10 @@ address {
     color: #2e2f42;
 }
 
-.sec-twoh {
+.visually-hidden {
     visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
 
 .portfolio-ul p {
@@ -213,7 +215,6 @@ ul {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0 24px;
 }
 
 .header-div {
@@ -254,11 +255,6 @@ main .section-order {
     background: #2E2F42;
     color: #FFFFFF;
     padding: 188px 0 188px
-}
-
-section+.section-team {
-    display: flex;
-    flex-direction: column;
 }
 
 .teamli img {
@@ -320,6 +316,19 @@ footer {
 }
 
 .div-order {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-li {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.nav-li {
+    padding: 24px 0 24px;
+}
+
+.team-div {
     display: flex;
     flex-direction: column;
 }
