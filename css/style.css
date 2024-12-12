@@ -287,8 +287,12 @@ main .section-order {
     padding-bottom: 32px;
 }
 
+.portfolio-hp {
+    margin-left: 16px;
+}
+
 .portfolio-h {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-ul li {
