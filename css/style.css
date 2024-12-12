@@ -332,3 +332,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.teamli {
+    flex-basis: calc((100% - 72px) / 4);
+}
