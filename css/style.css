@@ -288,14 +288,13 @@ main .section-order {
 }
 
 .portfolio-ul img {
-    margin-bottom: 32px;
+
     width: 100%;
 }
 
 .portfolio-hp {
-    margin-left: 16px;
     padding: 32px 16px;
-
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-h {
@@ -303,7 +302,7 @@ main .section-order {
 }
 
 .portfolio-li {
-    border: 1px solid #e7e9fc;
+
     width: calc((100% - 48px) / 3);
 }
 
