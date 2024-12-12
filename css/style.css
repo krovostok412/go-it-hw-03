@@ -206,21 +206,22 @@ ul {
     padding: 0;
 }
 
-header {
+.header {
     border-bottom: 1px solid #E7E9FC;
+    padding: 0 15px 0 15px;
 }
 
 .header-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 0 15px 0;
+    padding: 24px 0 24px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .header-nav,
@@ -244,12 +245,10 @@ header {
     margin-bottom: 48px;
 }
 
-.section-order {
+main .section-order {
     background: #2E2F42;
     color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    padding: 187px 0 187px 0;
+    padding: 188px 0 188px
 }
 
 section+.section-team {
@@ -313,4 +312,9 @@ footer {
     flex-direction: column;
     max-width: 1156px;
     width: 100%;
+}
+
+.div-order {
+    display: flex;
+    flex-direction: column;
 }
