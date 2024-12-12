@@ -344,6 +344,7 @@ footer {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.nav-li {
+.nav-li a {
     padding: 24px 0;
+    display: inline-block;
 }
