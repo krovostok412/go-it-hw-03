@@ -55,6 +55,10 @@ h3 {
     color: #ffffff;
     margin: 0 auto;
     padding: 16px 32px;
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 .order-button:hover {
@@ -107,6 +111,7 @@ address {
     color: #434455;
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .adrress-li {
@@ -165,7 +170,7 @@ address {
 }
 
 .sec-twoh {
-    display: none;
+    visibility: hidden;
 }
 
 .portfolio-ul p {
@@ -208,14 +213,14 @@ ul {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    padding: 0 15px 0 15px;
+    padding: 24px 0 24px;
 }
 
 .header-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 0 24px;
+    padding: 0 15px 0 15px;
 }
 
 .nav {
