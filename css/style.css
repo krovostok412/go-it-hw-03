@@ -119,6 +119,7 @@ address {
 
 .section-team li {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-team h3 {
@@ -259,6 +260,7 @@ main .section-order {
 
 .teamli img {
     margin-bottom: 32px;
+    width: 100%;
 }
 
 .teamli {
@@ -266,7 +268,7 @@ main .section-order {
 }
 
 .teamh {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-p {
@@ -331,6 +333,7 @@ footer {
 .team-div {
     display: flex;
     flex-direction: column;
+    padding: 32px 0;
 }
 
 .teamli {
